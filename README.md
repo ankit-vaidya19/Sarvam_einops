@@ -33,8 +33,4 @@ y = rearrange(x, 'b c h -> b h c')
 print(y.shape)  # (2, 4, 3)
 ```
 
-This will run a basic set of test cases to validate correctness. All tests are implemented using simple `assert` statements for clarity.
 
-## File Structure
-
-- `einops.py` – contains both the implementation and test cases for `rearrange`.
