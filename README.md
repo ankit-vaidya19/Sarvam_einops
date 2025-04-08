@@ -14,7 +14,7 @@ This project provides a minimal implementation of the core functionality of the 
 The core function is `rearrange`, which parses the transformation pattern and performs:
 
 1. **Pattern Parsing**: The input and output patterns are parsed into axis groups.
-2. **Shape Inference**: Dimension sizes are mapped from input to output, including handling of `...` (ellipsis) and dynamic size (`-1`).
+2. **Shape Inference**: Dimension sizes are mapped from input to output, including handling of `...` (ellipsis) and dynamic size.
 3. **Tensor Operations**: NumPy operations like `reshape`, `transpose`, and `moveaxis` are applied to achieve the desired layout.
 
 Key design decisions include:
